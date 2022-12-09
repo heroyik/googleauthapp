@@ -15,4 +15,4 @@ firebase = pyrebase.initialize_app(firebaseConfig)
 storage = firebase.storage()
 
 # storage.child("texts/.txt").put("1.txt")
-storage.child("texts/1.txt").download(path="./",filename="downloaded.txt")
+storage.child("texts/1.txt").download(path="./", filename="downloaded.txt")
